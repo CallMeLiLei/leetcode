@@ -7,7 +7,6 @@ import java.util.LinkedList;
  * 有效的括号
  */
 public class code0020_isValid {
-
     public boolean isValid(String s) {
         char[] charArray = s.toCharArray();
         Deque<Character> stack = new LinkedList<>();
