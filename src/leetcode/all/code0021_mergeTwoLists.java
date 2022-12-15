@@ -26,7 +26,6 @@ public class code0021_mergeTwoLists {
         if (list2 != null) {
             cur.next = list2;
         }
-
         return dummy.next;
     }
 
