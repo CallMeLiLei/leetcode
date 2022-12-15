@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 无重复最长子串
  */
-public class code003_lengthOfLongestSubstring {
+public class code0003_lengthOfLongestSubstring {
 
     public int lengthOfLongestSubstring(String s) {
         char[] charArray = s.toCharArray();

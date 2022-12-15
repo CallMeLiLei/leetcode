@@ -25,7 +25,7 @@ public class code0008_myAtoi {
         long ans = 0L;
         boolean neg = charArray[0] == '-';
         int i = !Character.isDigit(charArray[0]) ? 1 : 0;  // 判断第一个字符还是第二个字符是数字
-        while (i < charArray.length && Character.isDigit(charArray[i])) {
+        while (i < charArray.length && Character.isDigit(charArray[i])) {  // 遇到字母就不循环
             ans = ans * 10 + (charArray[i++] - '0');
             if (!neg && ans > Integer.MAX_VALUE) {
                 ans = Integer.MAX_VALUE;

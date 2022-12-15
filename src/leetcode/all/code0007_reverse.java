@@ -3,7 +3,7 @@ package leetcode.all;
 /**
  * 整数反转
  */
-public class code007_reverse {
+public class code0007_reverse {
 
     public int reverse(int x) {
         long ans = 0;
