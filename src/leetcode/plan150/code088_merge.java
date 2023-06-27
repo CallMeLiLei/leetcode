@@ -4,8 +4,9 @@ import java.util.Arrays;
 
 public class code088_merge {
 
-    /**
-     * 方法2 : 双指针
+    /** 方法2 : 双指针
+     * 比较最大的，谁大谁放数组最后面，指针前移，需要考虑到pos2指针依然大于0的情况
+     *
      * */
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int pos1 = m - 1;
